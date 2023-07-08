@@ -1,7 +1,3 @@
----
-title: Dijkstra's Algorithm (ダイクストラ法)
-documentation_of: //graph/dijkstra.hpp
----
 ## Dijkstra's Algorithm (ダイクストラ法)
 
 #### 概要
