@@ -1,4 +1,8 @@
 #pragma once
+/**
+ * @brief Dijkstra's Algorithm (ダイクストラ法)
+ * @docs docs/graph/dijkstra.md
+ */
 
 template <typename T>
 vector<long long> dijkstra(const vector<vector<array<long long, 2>>> &G, T x){
