@@ -19,8 +19,8 @@ data:
     \ <boost/multiprecision/integer.hpp>\ntypedef long long int ll;\n#define FOR(i,a,b)\
     \ for(ll i=(a);i<(b);i++)\n#define REP(i,n) for(ll i=0;i<signed(n);i++)\n#define\
     \ EREP(i,n) for(ll i=1;i<=signed(n);i++)\n#define ALL(x) std::begin(x), std::end(x)\n\
-    using namespace std;\n// using namespace atcoder;\nusing boost::multiprecision::cpp_int;\n\
-    namespace mp = boost::multiprecision;\n//#define EVEL 1\n#ifdef EVEL\n#define\
+    using namespace std;\n// using namespace atcoder;\n// using boost::multiprecision::cpp_int;\n\
+    // namespace mp = boost::multiprecision;\n//#define EVEL 1\n#ifdef EVEL\n#define\
     \ DEB(X) cout << #X <<\":\" <<X<<\" \" ;\n#define TF(f) f ? cout<<\"true  \" :\
     \ cout<<\"false \";\n#define END cout<<\"\\n\";\n#else\n#define DEB(X) {}\n#define\
     \ TF(f) {}\n#define END {}\n#endif\nconst ll INF = 9e18;\ntypedef std::pair<ll,\
@@ -57,7 +57,7 @@ data:
   isVerificationFile: true
   path: test/aoj/DSL_1_A.test.cpp
   requiredBy: []
-  timestamp: '2023-07-12 23:09:17+09:00'
+  timestamp: '2023-07-12 23:12:10+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: test/aoj/DSL_1_A.test.cpp

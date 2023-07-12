@@ -37,9 +37,9 @@ data:
 
     // using namespace atcoder;
 
-    using boost::multiprecision::cpp_int;
+    // using boost::multiprecision::cpp_int;
 
-    namespace mp = boost::multiprecision;
+    // namespace mp = boost::multiprecision;
 
     //#define EVEL 1
 
@@ -116,9 +116,9 @@ data:
 
     // using namespace atcoder;
 
-    using boost::multiprecision::cpp_int;
+    // using boost::multiprecision::cpp_int;
 
-    namespace mp = boost::multiprecision;
+    // namespace mp = boost::multiprecision;
 
     //#define EVEL 1
 
@@ -171,7 +171,7 @@ data:
   isVerificationFile: false
   path: template/template.hpp
   requiredBy: []
-  timestamp: '2023-07-12 23:09:17+09:00'
+  timestamp: '2023-07-12 23:12:10+09:00'
   verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - test/aoj/DSL_1_A.test.cpp
