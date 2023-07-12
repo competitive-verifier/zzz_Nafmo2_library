@@ -17,7 +17,7 @@ data:
 
     #include <bits/stdc++.h>
 
-    #include <atcoder/all>
+    // #include <atcoder/all>
 
     #include <boost/multiprecision/cpp_int.hpp>
 
@@ -35,7 +35,7 @@ data:
 
     using namespace std;
 
-    using namespace atcoder;
+    // using namespace atcoder;
 
     using boost::multiprecision::cpp_int;
 
@@ -81,7 +81,7 @@ data:
 
     const long long MOD = 998244353;
 
-    using mint = static_modint<998244353>;
+    // using mint = static_modint<998244353>;
 
     // clang-format on
 
@@ -96,7 +96,7 @@ data:
 
     #include <bits/stdc++.h>
 
-    #include <atcoder/all>
+    // #include <atcoder/all>
 
     #include <boost/multiprecision/cpp_int.hpp>
 
@@ -114,7 +114,7 @@ data:
 
     using namespace std;
 
-    using namespace atcoder;
+    // using namespace atcoder;
 
     using boost::multiprecision::cpp_int;
 
@@ -160,7 +160,7 @@ data:
 
     const long long MOD = 998244353;
 
-    using mint = static_modint<998244353>;
+    // using mint = static_modint<998244353>;
 
     // clang-format on
 
@@ -171,7 +171,7 @@ data:
   isVerificationFile: false
   path: template/template.hpp
   requiredBy: []
-  timestamp: '2023-07-12 23:06:54+09:00'
+  timestamp: '2023-07-12 23:09:17+09:00'
   verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - test/aoj/DSL_1_A.test.cpp

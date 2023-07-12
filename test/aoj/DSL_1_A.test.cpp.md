@@ -15,11 +15,11 @@ data:
   attributes: {}
   bundledCode: "#line 1 \"test/aoj/DSL_1_A.test.cpp\"\n#define PROBLEM \"http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A\"\
     \n\n#line 2 \"template/template.hpp\"\n// clang-format off\n#include <bits/stdc++.h>\n\
-    #include <atcoder/all>\n#include <boost/multiprecision/cpp_int.hpp>\n#include\
+    // #include <atcoder/all>\n#include <boost/multiprecision/cpp_int.hpp>\n#include\
     \ <boost/multiprecision/integer.hpp>\ntypedef long long int ll;\n#define FOR(i,a,b)\
     \ for(ll i=(a);i<(b);i++)\n#define REP(i,n) for(ll i=0;i<signed(n);i++)\n#define\
     \ EREP(i,n) for(ll i=1;i<=signed(n);i++)\n#define ALL(x) std::begin(x), std::end(x)\n\
-    using namespace std;\nusing namespace atcoder;\nusing boost::multiprecision::cpp_int;\n\
+    using namespace std;\n// using namespace atcoder;\nusing boost::multiprecision::cpp_int;\n\
     namespace mp = boost::multiprecision;\n//#define EVEL 1\n#ifdef EVEL\n#define\
     \ DEB(X) cout << #X <<\":\" <<X<<\" \" ;\n#define TF(f) f ? cout<<\"true  \" :\
     \ cout<<\"false \";\n#define END cout<<\"\\n\";\n#else\n#define DEB(X) {}\n#define\
@@ -29,7 +29,7 @@ data:
     \ }\ntemplate<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return\
     \ true; } return false; }\ntemplate <class T> T vgcd(T m, T n) {return std::gcd(m,\
     \ n);}\ntemplate <class T, class... Args> T vgcd(T a, Args... args) {return vgcd(a,\
-    \ vgcd(args...));}\nconst long long MOD = 998244353;\nusing mint = static_modint<998244353>;\n\
+    \ vgcd(args...));}\nconst long long MOD = 998244353;\n// using mint = static_modint<998244353>;\n\
     // clang-format on\nll ans = 0;\nbool F = false;\n#line 2 \"data_structure/unionfind.hpp\"\
     \n\nstruct UnionFind {\n  vector< int > data;\n\n  UnionFind() = default;\n\n\
     \  explicit UnionFind(size_t sz) : data(sz, -1) {}\n\n  bool unite(int x, int\
@@ -57,7 +57,7 @@ data:
   isVerificationFile: true
   path: test/aoj/DSL_1_A.test.cpp
   requiredBy: []
-  timestamp: '2023-07-12 23:06:54+09:00'
+  timestamp: '2023-07-12 23:09:17+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: test/aoj/DSL_1_A.test.cpp
