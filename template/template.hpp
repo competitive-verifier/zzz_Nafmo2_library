@@ -1,7 +1,7 @@
 #pragma once
 // clang-format off
 #include <bits/stdc++.h>
-#include <atcoder/all>
+// #include <atcoder/all>
 #include <boost/multiprecision/cpp_int.hpp>
 #include <boost/multiprecision/integer.hpp>
 typedef long long int ll;
@@ -10,7 +10,7 @@ typedef long long int ll;
 #define EREP(i,n) for(ll i=1;i<=signed(n);i++)
 #define ALL(x) std::begin(x), std::end(x)
 using namespace std;
-using namespace atcoder;
+// using namespace atcoder;
 using boost::multiprecision::cpp_int;
 namespace mp = boost::multiprecision;
 //#define EVEL 1
@@ -32,7 +32,7 @@ template<class T> inline bool chmax(T& a, T b) { if (a < b) { a = b; return true
 template <class T> T vgcd(T m, T n) {return std::gcd(m, n);}
 template <class T, class... Args> T vgcd(T a, Args... args) {return vgcd(a, vgcd(args...));}
 const long long MOD = 998244353;
-using mint = static_modint<998244353>;
+// using mint = static_modint<998244353>;
 // clang-format on
 ll ans = 0;
 bool F = false;
