@@ -3,12 +3,12 @@ data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
   _extendedVerifiedWith:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: test/aoj/DSL_1_A.test.cpp
     title: test/aoj/DSL_1_A.test.cpp
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: hpp
-  _verificationStatusIcon: ':x:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
   bundledCode: '#line 2 "template/template.hpp"
@@ -19,9 +19,9 @@ data:
 
     // #include <atcoder/all>
 
-    #include <boost/multiprecision/cpp_int.hpp>
+    // #include <boost/multiprecision/cpp_int.hpp>
 
-    #include <boost/multiprecision/integer.hpp>
+    // #include <boost/multiprecision/integer.hpp>
 
     typedef long long int ll;
 
@@ -98,9 +98,9 @@ data:
 
     // #include <atcoder/all>
 
-    #include <boost/multiprecision/cpp_int.hpp>
+    // #include <boost/multiprecision/cpp_int.hpp>
 
-    #include <boost/multiprecision/integer.hpp>
+    // #include <boost/multiprecision/integer.hpp>
 
     typedef long long int ll;
 
@@ -171,8 +171,8 @@ data:
   isVerificationFile: false
   path: template/template.hpp
   requiredBy: []
-  timestamp: '2023-07-12 23:12:10+09:00'
-  verificationStatus: LIBRARY_ALL_WA
+  timestamp: '2023-07-12 23:09:17+09:00'
+  verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - test/aoj/DSL_1_A.test.cpp
 documentation_of: template/template.hpp

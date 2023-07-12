@@ -1,25 +1,29 @@
 ---
 data:
   _extendedDependsOn:
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: data_structure/unionfind.hpp
     title: data_structure/unionfind.hpp
-  - icon: ':x:'
+  - icon: ':heavy_check_mark:'
     path: template/template.hpp
     title: template/template.hpp
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
-  _isVerificationFailed: true
+  _isVerificationFailed: false
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
-  attributes: {}
+  _verificationStatusIcon: ':heavy_check_mark:'
+  attributes:
+    '*NOT_SPECIAL_COMMENTS*': ''
+    PROBLEM: http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A
+    links:
+    - http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A
   bundledCode: "#line 1 \"test/aoj/DSL_1_A.test.cpp\"\n#define PROBLEM \"http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=DSL_1_A\"\
     \n\n#line 2 \"template/template.hpp\"\n// clang-format off\n#include <bits/stdc++.h>\n\
-    // #include <atcoder/all>\n#include <boost/multiprecision/cpp_int.hpp>\n#include\
-    \ <boost/multiprecision/integer.hpp>\ntypedef long long int ll;\n#define FOR(i,a,b)\
-    \ for(ll i=(a);i<(b);i++)\n#define REP(i,n) for(ll i=0;i<signed(n);i++)\n#define\
-    \ EREP(i,n) for(ll i=1;i<=signed(n);i++)\n#define ALL(x) std::begin(x), std::end(x)\n\
-    using namespace std;\n// using namespace atcoder;\n// using boost::multiprecision::cpp_int;\n\
+    // #include <atcoder/all>\n// #include <boost/multiprecision/cpp_int.hpp>\n//\
+    \ #include <boost/multiprecision/integer.hpp>\ntypedef long long int ll;\n#define\
+    \ FOR(i,a,b) for(ll i=(a);i<(b);i++)\n#define REP(i,n) for(ll i=0;i<signed(n);i++)\n\
+    #define EREP(i,n) for(ll i=1;i<=signed(n);i++)\n#define ALL(x) std::begin(x),\
+    \ std::end(x)\nusing namespace std;\n// using namespace atcoder;\n// using boost::multiprecision::cpp_int;\n\
     // namespace mp = boost::multiprecision;\n//#define EVEL 1\n#ifdef EVEL\n#define\
     \ DEB(X) cout << #X <<\":\" <<X<<\" \" ;\n#define TF(f) f ? cout<<\"true  \" :\
     \ cout<<\"false \";\n#define END cout<<\"\\n\";\n#else\n#define DEB(X) {}\n#define\
@@ -57,8 +61,8 @@ data:
   isVerificationFile: true
   path: test/aoj/DSL_1_A.test.cpp
   requiredBy: []
-  timestamp: '2023-07-12 23:12:10+09:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2023-07-12 23:09:17+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: test/aoj/DSL_1_A.test.cpp
 layout: document
