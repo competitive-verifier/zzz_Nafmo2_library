@@ -1,7 +1,7 @@
 #pragma once
 /**
  * @brief Dijkstra's Algorithm (ダイクストラ法)
- * @docs docs/graph/dijkstra.md
+ * 
  */
 
 template <typename T>
